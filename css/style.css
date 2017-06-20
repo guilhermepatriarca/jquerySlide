@@ -25,7 +25,7 @@ h1 {
 #container {
     width: 980px;
     margin: 40px auto;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 #slider {
@@ -37,6 +37,9 @@ h1 {
     padding: 3px;
     border: 2px solid #666;
     border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(245, 245, 245, 0.52);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(245, 245, 245, 0.52);
+    box-shadow: 0px 0px 15px 1px rgba(245, 245, 245, 0.52);
 }
 
 #slider img {
